@@ -4,12 +4,12 @@
   </a>
 </p>
 
-# React Native App - Template
+# Movies App
 
 ## Ejecución
 1. Clonar del repositorio
 ```
-   git clone https://github.com/garySZA/react-native-app-template.git
+   git clone https://github.com/garySZA/movies-app-mobile.git
 ```
 2. Instalar dependencias
 ```
@@ -32,7 +32,7 @@ yarn start:android
 ## Stack
 * React Native
 * Typescript
-* Zustand
+* Axios
 
 ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
