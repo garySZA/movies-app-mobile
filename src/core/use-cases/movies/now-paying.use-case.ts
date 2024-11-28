@@ -11,6 +11,8 @@ export const moviesNowPlayingUseCase = async ( fetcher: HttpAdapter ): Promise<M
         return nowPlaying.results.map( MovieMapper.fromMovieDBResultToEntity );
 
     } catch (error) {
+        console.log(error);
         throw new Error('Error fetching movies - NowPlaying');
+
     }
 };
